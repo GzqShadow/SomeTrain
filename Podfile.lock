@@ -1,0 +1,38 @@
+PODS:
+  - AMap3DMap-NO-IDFA (5.2.1):
+    - AMapFoundation-NO-IDFA (~> 1.3)
+  - AMapFoundation-NO-IDFA (1.4.0)
+  - AMapLocation-NO-IDFA (2.4.0):
+    - AMapFoundation-NO-IDFA (~> 1.4)
+  - AMapSearch-NO-IDFA (5.2.1):
+    - AMapFoundation-NO-IDFA (~> 1.2)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - UMengUShare/Core (6.4.5):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.4.5)
+  - UMengUShare/Social/ReducedWeChat (6.4.5):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.4.5):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - AMap3DMap-NO-IDFA
+  - AMapLocation-NO-IDFA
+  - AMapSearch-NO-IDFA
+  - SDWebImage
+  - UMengUShare/Social/ReducedWeChat
+  - UMengUShare/UI
+
+SPEC CHECKSUMS:
+  AMap3DMap-NO-IDFA: ce3c57a3e0bd65ae09040ce55055b2020ab47783
+  AMapFoundation-NO-IDFA: d1ba541a56737c2048115a745b1dfcbe9901c248
+  AMapLocation-NO-IDFA: 9493012d3241a7d551942c7c1e1069b51f295083
+  AMapSearch-NO-IDFA: ec04c2c15ef278803234d959328acda14c2c3c5d
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  UMengUShare: a5711c54e640b04e3048e931d2b88d50f9cfa55c
+
+PODFILE CHECKSUM: 20d6dc04d42db741ac12ed5244cdf8144506b5c6
+
+COCOAPODS: 1.0.1

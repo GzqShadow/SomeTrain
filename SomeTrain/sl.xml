@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <books>     <!--This is a test for dom4j, holen, 2004.9.11-->    
+  	<book show="yes">       
+  		<title>Dom4j Tutorials</title>    
+  	</book>     
+  	<book show="yes">       
+  		<title>《钢铁是怎样炼成的》</title>    
+  	</book>     <book show="no">       
+  	<title>《四重奏》</title>    
+  </book>     
+  <owner>O'Reilly</owner>  
+</books>

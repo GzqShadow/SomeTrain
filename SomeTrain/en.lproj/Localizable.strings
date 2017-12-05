@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  SomeTrain
+
+  Created by listome on 2016/11/24.
+  Copyright © 2016年 listome. All rights reserved.
+*/
+"REMIND"="Remind";
+"OK"="OK";
+"CANCEL"="Cancel";
+"NetworkConnectError"="Cannot Connect Network";

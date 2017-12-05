@@ -1,0 +1,34 @@
+//
+//  PrefixHeader.pch
+//  MAMapKit_3D_Demo
+//
+//  Created by shaobin on 16/8/9.
+//  Copyright © 2016年 Autonavi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+#define UMENG_APPKEY @"4eeb0c7b527015643b000003"
+#import <UMSocialCore/UMSocialCore.h>
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import <AMapLocationKit/AMapLocationKit.h>
+#import <AMapFoundationKit/AMapFoundationKit.h>
+#import <MAMapKit/MAMapKit.h>
+#import <AMapSearchKit/AMapSearchKit.h>
+#import "ErrorInfoUtility.h"
+#import "UIViewExt.h"
+
+#define GodeAppKey @"e4048f0486c93b7be6881d719fc0b1da"
+//#define GodeAppKey @"f001d634b3c06df9504189e3f80963f8"
+
+
+#define kScreenWidth [UIScreen mainScreen].bounds.size.width
+#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define JYColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+//#import <SDWebImage/UIImageView+WebCache.h>
+//#import "RouteCommon.h"
+//#import "ErrorInfoUtility.h"
+
+#endif /* PrefixHeader_pch */
